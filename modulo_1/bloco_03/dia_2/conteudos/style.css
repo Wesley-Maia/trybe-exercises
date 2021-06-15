@@ -1,0 +1,26 @@
+h1 {
+  font-family: sans-serif;
+}
+p {
+  font-weight: 600;
+  size: 3em;
+}
+body {
+  font-size: 16px;
+}
+#am {
+  background-color:yellow;
+}
+#vm {
+  background-color:red;
+}
+#mr {
+  background-color:brown;
+}
+#pgar {
+  background-color: cadetblue;
+  line-height: 40px;
+  font-style: italic;
+  text-align: justify;
+  text-decoration: underline;
+}
