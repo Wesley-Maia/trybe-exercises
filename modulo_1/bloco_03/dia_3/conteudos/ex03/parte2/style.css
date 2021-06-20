@@ -1,0 +1,33 @@
+div:nth-child(3) :hover{
+  border: 5px solid red;
+  background-color: teal;
+  font-size:20pt;
+  font-style: italic;
+}
+
+div:nth-child(4) :hover{
+  border: 5px solid red;
+  background-color: blue;
+  font-size:30pt;
+}
+
+div:nth-child(5) :hover{
+  border: 5px solid red;
+  background-color: yellowgreen;
+  font-size:40pt;
+  height: 100px;
+  font-style: italic;
+}
+
+div:nth-child(6) :hover{
+  border: 5px solid red;
+  background-color: chocolate;
+  font-size:50pt;
+}
+
+div:nth-child(7) :hover{
+  border: 5px solid red;
+  background-color: plum;
+  font-size:60pt;
+  font-style: italic;
+}

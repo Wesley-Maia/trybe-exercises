@@ -1,0 +1,78 @@
+body {
+  background-color: #E0FBFC;
+}
+
+.meuNome {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.descricao {
+  font-family: sans-serif;
+}
+
+.cidade {
+  font-weight: 800;
+}
+
+.hab1 .hab2 .hab3 .hab4 .hab5{
+  font-size: 20px;
+}
+
+div {
+  /* border: 2px solid red; */
+}
+
+.container-1 {
+  max-width: 40%;
+  min-height: 25%;
+  background-color: #3D5A80;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #FFF;
+  margin:20px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius:20px;
+  text-align: center;
+}
+
+.container-2 {
+  max-width: 40%;
+  min-height: 25%;
+  background-color: #EE6C4D;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #FFF;
+  margin:20px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius:20px;
+  font-size: 14pt;
+}
+
+.container-3 {
+  max-width: 40%;
+  min-height: 25%;
+  background-color: #98C1D9;
+  padding: 20px;
+  box-sizing: border-box;
+  color: 293241;
+  margin:20px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius:20px;
+  font-size: 14pt;
+  }
+
+.image-container{
+  height: 200px;
+  display: flex;
+  align-items: center;
+
+}
+
+#picture {
+  max-width:400px;
+  max-height:200px;
+  width: auto;
+  height: auto;
+  border-radius: 10%;
+  float: left;
+}
