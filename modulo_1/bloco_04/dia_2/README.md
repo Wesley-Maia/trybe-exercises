@@ -1,4 +1,4 @@
-## BLOCO 4.1 - DESCRIÇÃO DOS PROGRAMAS
+## BLOCO 4.2 - DESCRIÇÃO DOS PROGRAMAS
 
 ### aula-on-line
 - [x] Exercício 1: _ex01.js_ - Exercício sobre Array.

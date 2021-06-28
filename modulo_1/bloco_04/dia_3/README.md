@@ -1,4 +1,4 @@
-## BLOCO 4.1 - DESCRIÇÃO DOS PROGRAMAS
+## BLOCO 4.3 - DESCRIÇÃO DOS PROGRAMAS
 
 ### aula-on-line
 - [x] Exercício 1: _lotteryChecker.js_ - Queen Attack.
