@@ -1,4 +1,4 @@
-## BLOCO 8.1 - DESCRIÇÃO DOS PROGRAMAS
+## BLOCO 8.3 - DESCRIÇÃO DOS PROGRAMAS
 
 ### aula-on-line
 - [x] Exercício 1: _ex01-filter.js_ - Exercício com aplicação do método Array.filter.
