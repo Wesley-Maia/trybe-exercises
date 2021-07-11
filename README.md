@@ -75,9 +75,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 9: JavaScript Assíncrono e Promises
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [ ] 9-3: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-013-a-project-shopping-cart/pull/60)_
 
 ##### Bloco 10: Testes automatizados com Jests
-
+- [ ] 10-1: _Primeiros passos no Jest_
+- [ ] 10-2: _Jest - Testes Assíncronos_
+- [ ] 10-3: _Jest - Simulando comportamentos_
+- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
