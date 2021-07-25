@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML</title>
+</head>
+
+<body>
+  <div id="paiDoPai">
+    <div id="pai">
+      <div id="primeiroFilho"></div>
+      <div id="elementoOndeVoceEsta">
+        <div id="primeiroFilhoDoFilho"></div>
+        <div id="segundoEUltimoFilhoDoFilho"></div>
+      </div>
+      Atenção!
+      <div id="terceiroFilho"></div>
+      <div id="quartoEUltimoFilho"></div>
+    </div>
+  </div>
+
+  <script>
+    //1- Acesse o elemento elementoOndeVoceEsta
+    const elemento = document.querySelector('#elementoOndeVoceEsta');
+
+    //2- Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele
+    const pai = document.querySelector('#elementoOndeVoceEsta').parentNode;
+
+    //3- Acesse o primeiroFilhoDoFilho e adicione um texto a ele
+    const filhoFilho = document.querySelector('#elementoOndeVoceEsta').firstElementChild;
+    filhoFilho.innerText = 'AQUI';
+
+    //4- Acesse o primeiroFilho a partir de pai
+    const primeiroFilho = document.querySelector('#pai').firstElementChild;
+
+    //5- Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta.
+    const primeiroFilho2 = document.querySelector('#elementoOndeVoceEsta').parentNode.firstElementChild;
+
+    //6- Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta
+    const attention = document.querySelector('#elementoOndeVoceEsta').nextSibling;
+
+    //7- Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta
+    const terceiroFilho = document.querySelector('#elementoOndeVoceEsta').nextElementSibling;
+
+    //8- Agora acesse o terceiroFilho a partir de pai.
+    const terceiroFilho2 = document.querySelector('#pai').lastElementChild.previousElementSibling;
+  </script>
+
+</body>
+
+</html>
