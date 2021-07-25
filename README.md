@@ -40,10 +40,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _Fundamentos - JavaScript - Projetos_
-- [ ] 5-5: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-013-a-project-pixels-art/pull/89)_
-- [ ] 5-6: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-013-a-project-todo-list/pull/64)_
+- [x] 5-4: _JavaScript - Web Storage_
+- [x] 5-5: _Fundamentos - JavaScript - Projetos_
+- [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-013-a-project-pixels-art/pull/89)_
+- [x] 5-6: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-013-a-project-todo-list/pull/64)_
 - [ ] 5-7: _[(Bônus) Projeto - Meme Generator]()_
 - [ ] 5-7: _[(Bônus) Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[(Bônus) Projeto - Carta Misteriosa]()_
@@ -80,7 +80,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-013-a-project-shopping-cart/pull/60)_
 
 ##### Bloco 10: Testes automatizados com Jests
+
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Testes Assíncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
 - [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/tryber/sd-013-a-project-jest/pull/66)_
+
+##### Bloco 11: Introdução - React
+
+- [ ] 11-1: _'Hello, world!' no React!_
+- [ ] 11-2: _Componentes React_
+- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+
+##### Bloco 12: React
+
+- [ ] 12-1: _Components com estado_
+- [ ] 12-2: _Eventos e formulários no React_
+- [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
