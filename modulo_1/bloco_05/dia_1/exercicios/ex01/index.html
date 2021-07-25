@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício 5.1</title>
+
+  <style>
+    div {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+  <div class="main-content">
+    <div class="center-content">
+      <p>Texto padrão do nosso site</p>
+      <p>-----</p>
+      <p>Trybe</p>
+    </div>
+  </div>
+  <script>
+    /*
+    Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+    - document.getElementById()
+    - document.getElementsByClassName()
+    - document.getElementsByTagName()
+    */
+
+    //Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
+    let p1 = document.getElementsByTagName('p');
+    console.log(p1);
+    p1[0].innerText = 'Daqui 2 anos eu quero ser um desenvolvedor melhor que hoje...';
+
+    //Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+    let div1 = document.getElementsByClassName('main-content');
+    console.log(div1);
+    //div1[0].style.backgroundColor = 'rgb('+ 76 + ',' + 164 + ',' + 109 + ')';
+    div1[0].style.backgroundColor = 'rgb(' + [76, 164, 109].join(',') + ')';
+
+    //Crie uma função que mude a cor do quadrado vermelho para branco.
+    let div2 = document.getElementsByClassName('center-content');
+    console.log(div2);
+    div2[0].style.backgroundColor = 'white';
+
+    //Crie uma função que corrija o texto da tag <h1>.
+    let corrige = document.getElementsByTagName('h1');
+    console.log(corrige);
+    corrige[0].innerText = 'Exercício 5.1 - JavaScript';
+
+    //Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+    p1[2].innerText = 'TRYBE';
+
+    //Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+    console.log(p1)
+  </script>
+</body>
+
+</html>
