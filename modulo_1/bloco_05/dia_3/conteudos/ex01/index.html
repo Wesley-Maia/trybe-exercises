@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS - Eventos</title>
+</head>
+
+<body>
+  <p id="trybe">
+    Olá, somos a Trybe e temos uma oferta imperdível para você...
+  </p>
+
+  <button onclick="maisInfo();">Mais informações</button>
+
+  <p id="trybe-continua"></p>
+
+  <script>
+    window.onload = jsCarregado;
+
+    function jsCarregado() {
+      alert("Página foi carregada!");
+    }
+
+    function maisInfo() {
+      let textoMaisInfo = document.getElementById('trybe-continua');
+      textoMaisInfo.innerText = 'Aqui você vai aprender Hard Skills, Soft Skills e muito mais...'
+    }
+  </script>
+</body>
+
+</html>
