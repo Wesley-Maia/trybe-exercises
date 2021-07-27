@@ -1,0 +1,55 @@
+body {
+  background-color: #303030;
+  color: white;
+  width: 100%;
+  margin: 0;
+}
+
+.main-container {
+  
+  justify-content: center;
+  width: 100%;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.serie-list {
+  display: flex;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.serie-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #404040;
+  margin: 10px;
+  justify-content: center;
+  width: 330px;
+}
+
+.data-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.poke-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.general-card {
+  display: flex;
+}
