@@ -89,8 +89,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 11: Introdução - React
 
 - [x] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+- [x] 11-2: _Componentes React_
+- [x] 11-3: _[Projeto - Movie Cards Library](https://github.com/tryber/sd-013-a-project-movie-cards-library/pull/82)_
 
 ##### Bloco 12: React
 
