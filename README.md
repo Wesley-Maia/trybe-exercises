@@ -95,8 +95,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
 - [x] 12-1: _Components com estado e eventos_
-- [ ] 12-2: _Formulários no React_
-- [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [x] 12-2: _Formulários no React_
+- [x] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/tryber/sd-013-a-project-movie-cards-library-stateful/pull/62)_
 
 ##### Bloco 13: Ciclo de Vida de Componentes e React Router
 
