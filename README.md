@@ -86,6 +86,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 10-3: _Jest - Simulando comportamentos_
 - [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/tryber/sd-013-a-project-jest/pull/66)_
 
+## Desenvolvimento Front-end :white_check_mark:
+
 ##### Bloco 11: Introdução - React
 
 - [x] 11-1: _'Hello, world!' no React!_
@@ -111,7 +113,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 15: Testes em React
 
-- [ ] 15-1: _RTL - Primeiros Passos_
+- [x] 15-1: _RTL - Primeiros Passos_
 - [ ] 15-2: _RTL - Mocks e Inputs_
 - [ ] 15-2: _RTL - Testando React Router_
 - [ ] 15-3: _[Projeto - Testes em React]()_
