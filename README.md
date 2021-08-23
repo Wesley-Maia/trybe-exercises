@@ -115,5 +115,5 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 15-1: _RTL - Primeiros Passos_
 - [x] 15-2: _RTL - Mocks e Inputs_
-- [ ] 15-2: _RTL - Testando React Router_
-- [ ] 15-3: _[Projeto - Testes em React]()_
+- [x] 15-2: _RTL - Testando React Router_
+- [x] 15-3: _[Projeto - Testes em React](https://github.com/tryber/sd-013-a-project-react-testing-library/pull/34)_
