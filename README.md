@@ -117,3 +117,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 15-2: _RTL - Mocks e Inputs_
 - [x] 15-2: _RTL - Testando React Router_
 - [x] 15-3: _[Projeto - Testes em React](https://github.com/tryber/sd-013-a-project-react-testing-library/pull/34)_
+
+##### Bloco 16: Introdução ao Redux
+
+- [x] 16-1: _Introdução ao Redux - O estado global da aplicação_
+- [ ] 16-2: _Usando o Redux no React_
+- [ ] 16-3: _Usando o Redux no React - Prática_
+- [ ] 16-4: _Usando o Redux no React - Actions Assíncronas_
+- [ ] 16-5: _Testes em React-Redux_
+- [ ] 16-6: _[Projeto - Trybe Wallet()_
+
+##### Bloco 17: Projeto React
+
+- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+
+##### Bloco 18: React & Context API
+
+- [ ] 18-1: _Context API do React_
+- [ ] 18-2: _React Hooks - useState e useContext_
+- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
+- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
