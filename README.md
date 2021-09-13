@@ -121,15 +121,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 16: Introdução ao Redux
 
 - [x] 16-1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 16-2: _Usando o Redux no React_
+- [x] 16-2: _Usando o Redux no React_
 - [ ] 16-3: _Usando o Redux no React - Prática_
 - [ ] 16-4: _Usando o Redux no React - Actions Assíncronas_
 - [ ] 16-5: _Testes em React-Redux_
-- [ ] 16-6: _[Projeto - Trybe Wallet()_
+- [x] 16-6: _[Projeto - Trybe Wallet(https://github.com/tryber/sd-013-a-project-trybewallet/pull/45)_
 
 ##### Bloco 17: Projeto React
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+- [x] 17-1: _[Projeto - Jogo de Trivia](https://github.com/tryber/sd-013-a-project-trivia-react-redux/pull/21)_
 
 ##### Bloco 18: React & Context API
 
