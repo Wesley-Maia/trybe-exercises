@@ -1,0 +1,82 @@
+body {
+  background-color: #E0FBFC;
+}
+
+.meuNome {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.picture {
+  max-width:400px;
+  max-height:200px;
+  width: auto;
+  height: auto;
+  border-radius: 10%;
+}
+
+.descricao {
+  font-family: sans-serif;
+}
+
+.cidade {
+  font-weight: 800;
+}
+
+.hab1 {
+  font-size: 20px;
+}
+
+.hab2 {
+  font-size: 22px;
+}
+
+.hab3 {
+  font-size: 24px;
+}
+
+.hab4 {
+  font-size: 26px;
+}
+
+.hab5 {
+  font-size: 28px;
+}
+
+.card1 {
+max-width: 40%;
+min-height: 25%;
+background-color: #3D5A80;
+padding: 20px;
+box-sizing: border-box;
+color: #FFF;
+margin:20px;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius:20px;
+text-align: center;
+}
+
+.card2 {
+max-width: 40%;
+min-height: 25%;
+background-color: #EE6C4D;
+padding: 20px;
+box-sizing: border-box;
+color: #FFF;
+margin:20px;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius:20px;
+font-size: 14pt;
+}
+
+.card3 {
+max-width: 40%;
+min-height: 25%;
+background-color: #98C1D9;
+padding: 20px;
+box-sizing: border-box;
+color: 293241;
+margin:20px;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius:20px;
+font-size: 14pt;
+}

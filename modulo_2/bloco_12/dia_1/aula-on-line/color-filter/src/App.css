@@ -1,0 +1,15 @@
+body {
+  min-height: 100vh;
+  background-color: #303030;
+  color: #fafafa;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.square-color {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+}

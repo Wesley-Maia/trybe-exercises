@@ -1,0 +1,52 @@
+body {
+    background-color: aquamarine;
+}
+
+p {
+    text-align: justify;
+}
+
+.nav {
+    display: inline;
+    margin-right: 5px;
+}
+
+.header {
+    text-align: center;
+    max-width: 60%;
+    min-height: 40%;
+    background-color: #3D5A80;
+    padding: 20px;
+    box-sizing: border-box;
+    margin:20px;
+}
+
+.card {
+    max-width: 60%;
+    min-height: 40%;
+    background-color: #3D5A80;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #FFF;
+    margin:20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius:20px;
+}
+
+.video {
+  display: block;
+  position: fixed;
+  top: 250px;
+  left: 1200px;
+  width: 200%;
+  height: auto; 
+}
+
+iframe {
+    position: fixed;
+    /* right: 10%; */
+    top: 10px;
+    width: 440px;
+    height: 240px;
+    margin-left: 800px;
+}

@@ -1,0 +1,44 @@
+.super-mario{
+  max-width:800px;
+  max-height:600px;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  position: absolute;
+}
+
+.goomba{
+  max-width:800px;
+  max-height:600px;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  position: absolute;
+  top: 700px;
+}
+
+.bowser{
+  max-width:800px;
+  max-height:600px;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  position: absolute;
+  left:600px;
+  z-index: 1;
+}
+
+.baloon{
+  position: absolute;
+  margin: 10px;
+  left: 365px;
+  z-index: 2;
+}
+
+.word{
+  position: absolute;
+  margin: 10px;
+  top: 150px;
+  left:420px;
+  z-index: 3;
+}

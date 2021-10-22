@@ -1,0 +1,28 @@
+h1,p{
+  text-align: center;
+}
+
+ol li:hover{
+  background-color: crimson;
+}
+
+ol li:active{
+  font-family: 'Montserrat', sans-serif;
+  color: green;
+  font-weight: 800;
+}
+
+.card{
+  max-width: 60%;
+  min-height: 25%;
+  background-color: cadetblue;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #FFF;
+  margin:20px;
+  border-radius:20px;
+  }
+
+  ul, ol {
+    list-style: none;
+  }

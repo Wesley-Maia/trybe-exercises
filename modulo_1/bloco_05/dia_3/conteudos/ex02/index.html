@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS - Eventos</title>
+</head>
+
+<body>
+  <p id='trybe'>
+    Olá, somos a Trybe e temos uma oferta imperdível para você...
+  </p>
+
+  <p id='clicar'>Parágrafo para ser clicado</p>
+
+  <div>
+    <button id="cursor">Teste</button>
+  </div>
+
+  <script>
+    let clickP = document.getElementById('clicar');
+    clickP.addEventListener('click', recebeClick);
+
+    let cursorP = document.getElementById('cursor');
+    cursorP.addEventListener('mouseover', mouseEmCima)
+    cursorP.addEventListener('mouseleave', mouseSaiu)
+
+    function recebeClick(eventoDeOrigem) {
+      console.log(eventoDeOrigem.target);
+      console.log(eventoDeOrigem.type);
+    }
+
+    function mouseEmCima() {
+      console.log('Mouse em cima');
+    }
+
+    function mouseSaiu(){
+      console.log('Mouse saiu do elemento');
+    }
+  </script>
+</body>
+
+</html>
