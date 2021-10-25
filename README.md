@@ -155,7 +155,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 21: Funções SQL, Joins e Subqueries
 
 - [x] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs, UNIONs e Subqueries_
+- [x] 21-2: _Descomplicando JOINs, UNIONs e Subqueries_
 - [ ] 21-3: _Stored Routines & Stored Functions_
 - [ ] 21-4: _[Projeto - Vocabulary Booster]()_
 
