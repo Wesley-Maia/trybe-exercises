@@ -161,7 +161,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 22: Normalização e Modelagem de Banco de Dados
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados - Parte 1_
+- [x] 22-1: _Transformando ideias em um modelo de banco de dados - Parte 1_
 - [ ] 22-2: _Normalização, Formas Normais e Dumps_
 - [ ] 22-3: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [x] 22-4: _[Projeto - One For All](https://github.com/tryber/sd-013-a-mysql-one-for-all/pull/32)_
