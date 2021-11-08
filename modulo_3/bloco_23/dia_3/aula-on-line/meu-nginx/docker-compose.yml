@@ -1,0 +1,11 @@
+version: '3'
+ 
+services: 
+  web:
+    build: .
+    image: nginx:latest
+    volumes: 
+      - ./public_html:/usr/share/nginx/html
+    ports:
+      - 8080:80
+ 
