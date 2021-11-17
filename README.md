@@ -171,5 +171,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 23-1: _Utilizando Containers - Docker_
 - [x] 23-2: _Manipulação e Criação de Imagens no Docker_
 - [x] 23-3: _Orquestrando Containers com Docker Compose_
-- [ ] 23-4: _[Projeto - Docker Todo-List]()_
+- [x] 23-4: _[Projeto - Docker Todo-List](https://github.com/tryber/sd-013-a-project-docker-todo-list/pull/28)_
+
+##### Bloco 24: MongoDB - Introdução
+
+- [x] 24-1: _MongoDB - Introdução_
+- [ ] 24-2: _Filter Operators_
+- [ ] 23-4: _[Projeto - Data Flights]()_
 

@@ -1,0 +1,128 @@
+// Mostrar todos os bancos de dados
+show dbs;
+
+// Mostrar todas as colections
+show collections;
+
+// Selecionar BD
+use('class');
+
+// Drop Collection
+use('class');
+db.users.drop();
+
+// Insert
+use('class');
+db.inventory.insertOne({ item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" });
+
+use('class');
+db.inventory.insertMany([
+  { item: "paper", qty: 100, size: { h: 8.5, w: 11, uom: "in" }, status: "D" },
+  { item: "planner", qty: 75, size: { h: 22.85, w: 30, uom: "cm" }, status: "D" },
+  { item: "postcard", qty: 45, size: { h: 10, w: 15.25, uom: "cm" }, status: "A" }
+]);
+
+// Find
+use('class');
+db.inventory.find({ status: 'D' });
+
+use('class');
+db.inventory.find({ status: 'D', item: 'paper' });
+
+// Subdocumentos - Relacionamento 1:1
+use('class');
+db.users.insertOne({
+  _id: "joe",
+  name: "Joe Bookreader"
+});
+db.addressess.insertOne({
+  user_id: "joe", // referencia o documento do usuário
+  street: "123 Fake Street",
+  city: "Faketon",
+  state: "MA",
+  zip: "12345"
+});
+
+use('class');
+db.users.insertOne({
+  "_id": "joe",
+  "name": "Joe Bookreader",
+  "address": {
+    "street": "123 Fake Street",
+    "city": "Faketon",
+    "state": "MA",
+    "zip": "12345"
+  }
+});
+
+// Find
+use('class');
+db.users.find({ _id: 'joe' });
+
+// Subdocumentos - Relacionamento 1:N
+use('class');
+db.users.insertOne({
+  _id: "amanda",
+  name: "Amanda Granger",
+  addresses: [
+    {
+      street: "Sunset Boulevard",
+      city: "Los Angeles",
+      state: "CA",
+      zip: "12345"
+    },
+    {
+      street: "1 Some Other Street",
+      city: "New York",
+      state: "NY",
+      zip: "12345"
+    }
+  ]
+});
+
+// Find em sub-documentos
+use('class');
+db.users.find({ 'addresses.state': 'NY' });
+
+// Projection
+
+// Traz o campo _id
+use('class');
+db.inventory.find({ status: "A" }, { item: 1, status: 1 });
+db.inventory.find({ status: "A" }, { item: true, status: true });
+
+// Remove o campo _id
+use('class');
+db.inventory.find({ status: "A" }, { item: 1, status: 1, _id: 0 });
+// ou
+db.inventory.find({ status: "A" }, { item: 1, status: 1, _id: false });
+
+// Escolhendo o que *não* trazer
+use('class');
+db.inventory.find({ status: "A" }, { status: 0, qty: 0, 'size.h': 0 });
+
+// Limit e Skip
+// Limit
+use('class');
+db.inventory.find().limit(2);
+db.inventory.find({ status: "A" }).limit(1);
+
+// Skip
+use('class');
+db.inventory.find().skip(2);
+
+// Limit + Skip
+use('class');
+db.inventory.find({}, { item: 1 }); // retorna todos os cinco documentos
+db.inventory.find({}, { item: 1 }).skip(0).limit(2); // retorna o primeiro e segundo documentos
+db.inventory.find({}, { item: 1 }).skip(1*2).limit(2); // retorna o terceiro e quarto documentos
+db.inventory.find({}, { item: 1 }).skip(2*2).limit(2); // retorna o último elemento
+db.inventory.find({}, { item: 1 }).skip(3*2).limit(2); // retorna nada
+
+// MongoDB roda JavaScript
+function minhaFn () {
+  use('class')
+  return db.inventory.find({}, { item: 1 }); // retorna todos os cinco documentos
+}
+
+minhaFn()
