@@ -1,0 +1,82 @@
+// Filter Operators
+
+// $lt
+db.filmes.find({ ano: { $lt: 2000 } }).count();
+
+// $lte
+db.filmes.find({ ano: { $lte: 2000 } }).count();
+
+// $gt
+db.filmes.find({ ano: { $gt: 1993 } });
+db.filmes.find({ ano: { $gt: 1993 } }).count();
+db.filmes.countDocuments({ ano: { $gt: 1993 } });
+
+// $gte
+db.filmes.find({ ano: { $gte: 1993 } });
+db.filmes.find({ ano: { $gte: 1993 } }).count();
+
+// Combinando operadores
+
+db.filmes.find(
+    { ano: { $gte: 1993, $lte: 2000 } }
+);
+
+// $eq
+db.filmes.find({ ano: { $eq: 1993 } });
+db.filmes.find({ ano: 1993 });
+
+// Embedded Documents
+
+db.filmes.find({ 'avaliacao.bom': { $lte: 7 } });
+
+// Filmes lançados apos o ano 2000 e um rating abaixo de 8
+db.filmes.find({ ano: { $gt: 2000 }, 'avalicao.bom': { $lt: 8 } });
+
+// $ne
+db.filmes.find({ 'avaliacao.ruim': { $ne: 8 } })
+
+// $in
+db.filmes.find({ ano: { $in: [2001, 1968, 1995] } });
+
+// $nin
+db.filmes.find({ ano: { $nin: [2013, 2008] } })
+
+// Operadores Lógicos
+
+// $and
+db.filmes.find({ $and: [{ ano: { $gt: 2000 } }, { 'avaliacao.bom': { $gte: 8 } }] })
+db.filme.find({ ano: { $gt: 2000 }, 'avaliacao.bom': { $gte: 8 } })
+
+// $or
+db.filmes.find({ $or: [{ ano: { $gt: 2000 } }, { 'avaliacao.bom': { $gte: 8 } }] })
+
+// Combinando operadores lógicos
+db.filmes.find({ $or: [{ ano: 2000, 'avaliacao.bom': 8 }, { ano: 2001, 'avalicao.bom': 5 }] })
+db.filmes.find({ $and: [{ $or: [{ano: 2000}, { 'avaliacao.bom': 8 }] }, { $or: [ { ano: 2005 }, { 'avaliacao.bom': 3 } ] } ] })
+
+// Operador $exists
+
+db.records.insertMany(
+    [
+        { primeiro: 5, segundo: 5, terceiro: null },
+        { primeiro: 3, segundo: null, terceiro: 8 },
+        { primeiro: null, segundo: 3, terceiro: 9 },
+        { primeiro: 1, segundo: 2, terceiro: 3 },
+        { primeiro: 2, terceiro: 5 },
+        { primeiro: 3, segundo: 2 },
+        { primeiro: 4 },
+        { segundo: 2, terceiro: 4 },
+        { segundo: 2 },
+        { terceiro: 6 }
+    ]
+);
+
+db.records.find({ primeiro: { $exists: true } });
+db.records.find({ segundo: { $exists: false } });
+
+// Ordenando documentos
+db.filmes.find().sort({ "avaliacao.bom": -1 });
+db.filmes.find({ ano: { $lte: 2000 } })
+  .sort({ ano: -1 })
+  .skip(1)
+  .limit(2);
