@@ -1,0 +1,24 @@
+use('class');
+db.increment.insertOne(
+  {
+    _id: 1,
+    sku: "abc123",
+    quantity: 10,
+    metrics: {
+      orders: 2,
+      ratings: 3.5
+    }
+  }
+);
+
+use('class');
+db.increment.find({"_id": 1});
+
+use('class');
+db.increment.update(
+  { sku: "abc123" },
+  { $inc: { quantity: -2, "metrics.orders": 1 } }
+);
+
+use('class');
+db.increment.find({"_id": 1});

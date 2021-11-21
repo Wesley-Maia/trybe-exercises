@@ -1,0 +1,198 @@
+use('class')
+db.students.insertMany(
+  [
+    { name: "Leppa ping", school: "Escola dos Pigs", bestScore: 9.8 },
+    { name: "Parry Hotter", school: "Googwarts", bestScore: 7.2 },
+    { name: "Gilherme I", school: "Turma 13", bestScore: 9 },
+    { name: "Gilherme II", school: "Turma 13", bestScore: 6 },
+    { name: "Gilherme III", school: "Turma 13", bestScore: 8.2 },
+    { name: "Gilherme IV", school: "Turma 13", bestScore: 2.2 },
+    { name: "Gilherme V", school: "Turma 13", bestScore: 10 },
+    { name: "Gilherme VI", school: "Turma 13", bestScore: 6.7 },
+    { name: "Gilherme VII", school: "Turma 13", bestScore: 9.5 },
+    { name: "Gilherme VIII", school: "Turma 13", bestScore: 8.8 },
+    { name: "Gilherme IX", school: "Turma 13", bestScore: 3 },
+    { name: "Gilherme X", school: "Turma 13", bestScore: 0.5 },
+    { name: "Batiman", school: "Botam", bestScore: 12 }
+  ]
+);
+
+db.students.find();
+
+// Atualize um documentos onde a escola é Turma 13 para GuiSchool
+use('class')
+db.students.updateOne(
+  { 
+    school: "Turma 13"
+  },
+  {
+    $set: { school: "GuiSchool" }
+  },
+);
+
+// Atualize todos os documentos onde a escola é Turma 13 para GuiSchool
+use('class')
+db.students.updateMany(
+  { 
+    school: "Turma 13"            // filter
+  },
+  {
+    $set: { school: "GuiSchool" } // operação
+  }
+);
+
+use('class')
+db.students.find();
+
+// Atualizes todos os documentos onde o name é Relogio
+use('class')
+db.students.updateMany(
+  { name: "Relogio" },     // filtro
+  {
+    $set: {                // operação
+      price: 350,
+      qtd: 1000,
+
+    }
+  }
+);
+
+use('class')
+db.students.count();
+
+use('class')
+db.products.insertOne(
+  {
+    _id: 100,
+    sku: "abc123",
+    quantity: 250,
+    instock: true,
+    details: { model: "14Q2", make: "xyz" },
+    tags: [ "apparel", "clothing" ],
+    ratings: [ { by: "John Doe", rating: 4 } ]
+  }
+);
+
+use('class')
+db.products.find({ _id: 100 });
+
+// Altere a quantity para 500.
+// details receberá um novo documento
+// tags receberá um novo array com os valores coats
+
+db.products.updateOne(
+  { _id: 100 },
+  { 
+    $set: { 
+      quantity: 500,
+      details: { model: "AAAA", make: "BBBB" },
+      tags: ["coats"]
+    } 
+  }
+);
+
+// $SET === ATRIBUTOS
+// UPSERT === DOCUMENTOS
+
+db.products.updateOne(
+  { _id: 100 },
+  {
+    $set: {
+      "tags.0": "SUB",
+      "ratings.0.by": { x: "10"}
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 100 },
+  {
+    $set: {
+      receitaMaxima: 1.85
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 100 },
+  {
+    $mul: { // operação
+      // multipliando o campo receitaMaxima por 500
+      receitaMaxima: NumberDecimal(500)
+      // 1.85 * 500
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 100 },
+  {
+    $inc: {
+      quantity: 2
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 100 },
+  {
+    $inc: {
+      receitaMaxima: NumberDecimal(2 * 1.80)
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 100 },
+  {
+    $inc: {
+      receitaMaxima: (-8) * 1.80,
+      quantity: -8
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 100 },
+  {
+    $min: { "quantity": 400 }
+  }
+);
+
+db.products.updateOne(
+  { _id: 100 },
+  {
+    $max: { "quantity": 450 }
+  }
+);
+
+db.products.updateOne(
+  { _id: 100 },
+  {
+    $rename: {
+      "updated.data.$date": "batatinha"
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 100 },
+  {
+    $unset: {
+      "receitaMaxima": ""
+    }
+  }
+);
+
+db.products.updateOne(
+  { _id: 100 },
+  {
+    $currentDate: {
+      "updated.data": true,
+    }
+  }
+);
+
+db.products.find(
+  { _id: 100 },
+);
