@@ -1,0 +1,13 @@
+// Removendo o primeiro item de um array
+use('class');
+db.supplies.updateOne({ _id: 1 }, { $pop: { items: -1 } });
+
+use('class');
+db.supplies.find();
+
+// Removendo o último item de um array
+use('class');
+db.supplies.updateOne({ _id: 1 }, { $pop: { items: 1 } });
+
+use('class');
+db.supplies.find();

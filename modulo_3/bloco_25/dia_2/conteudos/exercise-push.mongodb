@@ -1,0 +1,46 @@
+// Adicionando um valor a um array
+use('class');
+db.supplies.updateOne(
+  { _id: 1 },
+  {
+    $push: {
+      items: {
+        "name": "notepad",
+        "price":  35.29,
+        "quantity": 2,
+      },
+    },
+  },
+  { upsert: true },
+);
+
+use('class');
+db.supplies.find();
+
+// Adicionando múltiplos valores a um array
+use('class');
+db.supplies.updateOne(
+  {},
+  {
+    $push: {
+      items: {
+        $each: [
+          {
+            "name": "pens",
+            "price": 56.12,
+            "quantity": 5,
+          },
+          {
+            "name": "envelopes",
+            "price": 19.95,
+            "quantity": 8,
+          },
+        ],
+      },
+    },
+  },
+  { upsert: true },
+);
+
+use('class');
+db.supplies.find();
