@@ -1,0 +1,148 @@
+db.flights.find(
+    { "empresa.nome": "AZUL" },
+    { vooId: 1 }
+);
+
+db.flights.updateOne(
+    { vooId: 744454 },
+    {
+        $push: {
+            referencias: {
+                $each: ["campinas", "fort lauderdale", "internacional", "regular", "pontual"]
+            }
+        }
+    }
+);
+
+db.flights.updateOne(
+  { vooId: 744455 },
+  {
+    $push: {
+      referencias: {
+        $each: ["belo horizonte", "orlando", "internacional", "regular", "pontual"]
+      }
+    }
+  }
+);
+
+db.flights.find(
+    { "empresa.nome": "AZUL" },
+    { vooId: 1, referencias: 1 }
+);
+
+db.flights.find({
+  $and: [
+    { referencias: 'regular' },
+    { referencias: 'internacional' }
+  ]
+});
+
+db.flights.find({
+  referencias: {
+    $all: ['regular', 'internacional']
+  }
+}, {
+  vooId: 1,
+  referencias: 1
+})
+
+db.flights.find({
+  referencias: {
+    $all: ['regular', 'internacional', 'campinas']
+  }
+}, {
+  vooId: 1,
+  referencias: 1
+})
+
+db.flights.find({
+  referencias: {
+    $all: ['regular', 'internacional', 'Trybe']
+  }
+}, {
+  vooId: 1,
+  referencias: 1
+})
+
+db.students.find(
+  {
+    quizzes: {
+        $elemMatch: { wk: { $gte: 5, $lte: 7 } }
+    }
+  },
+  {
+    name: 1,
+    quizzes: 1
+  }
+);
+
+db.students.find(
+  {
+    scores: {
+        $elemMatch: { $gte: 10, $lte: 11  }
+    }
+  },
+  {
+    name: 1,
+    scores: 1
+  }
+);
+
+db.students.find({
+  quizzes: { $size: 3 }
+}, {
+  name: 1, 
+  quizzes: 1,
+  turma: 1
+});
+
+db.flights.find(
+  {
+    $expr: {
+      $gt: [ "passageiros.pagos", "passageiros.gratis" ]
+    }
+  },
+  { passageiros: 1 }
+);
+
+db.flights.find({
+  $expr: {
+    $gt: ["carga.paga.kg", "carga.gratis.kg"]
+  }
+});
+
+db.students.find(
+  {
+    name: {
+      $regex: /^Al.*$/i
+      // ^  indica que o nome começa com 'Al'
+      // E depois podem vir qualquer caracter
+      // Isso é indicado pelo .* e $
+    }
+  }
+);
+
+db.students.find({
+  name: {
+    $regex: /A/i
+  }
+});
+
+db.students.countDocuments({
+  name: /A/i
+});
+
+db.articles.createIndex({ subject: "text" });
+
+db.articles.getIndexes();
+
+db.articles.find({ $text: { $search: "coffee" } });
+
+db.articles.find({ $text: { $search: "bake coffee cake" } })
+
+db.articles.find({ $text: { $search: '"coffee shop"' } });
+
+db.musica.createIndex({ letra: "text" }, { default_language: 'portuguese' });
+db.musica.getIndexes();
+
+db.musica.find({ $text: { $search: 'tomando um café' } });

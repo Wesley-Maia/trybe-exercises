@@ -183,6 +183,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 25-1: _Updates Simples_
 - [x] 25-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 25-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 25-4: _[Projeto - Commerce]()_
+- [x] 25-3: _Updates Complexos - Arrays - Parte 2_
+- [x] 25-4: _[Projeto - Commerce]()_
 
