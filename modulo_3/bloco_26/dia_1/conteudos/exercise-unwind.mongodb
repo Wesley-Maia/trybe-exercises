@@ -1,0 +1,9 @@
+// Insira o seguinte documento na coleção inventory :
+use('class');
+db.inventory.insertOne(
+  { _id: 7, item: "ABC1", sizes: ["S", "M", "L"] }
+);
+
+// Utilizando o $unwind como um estágio do pipeline :
+use('class');
+db.inventory.aggregate([{ $unwind : "$sizes" }]);
