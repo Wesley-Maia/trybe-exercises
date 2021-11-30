@@ -1,0 +1,97 @@
+// Join com igualdade simples
+// Considere os seguintes documentos nas coleções orders e inventory :
+
+// orders
+use('class');
+db.orders.insertMany([
+{ _id: 1, item: "almonds", price: 12, quantity: 2 },
+{ _id: 2, item: "pecans", price: 20, quantity: 1 },
+{ _id: 3 }
+]);
+
+// inventory
+use('class');
+db.inventory.insertMany([
+{ _id: 1, sku: "almonds", description: "product 1", instock: 120 },
+{ _id: 2, sku: "bread", description: "product 2", instock: 80 },
+{ _id: 3, sku: "cashews", description: "product 3", instock: 60 },
+{ _id: 4, sku: "pecans", description: "product 4", instock: 70 },
+{ _id: 5, sku: null, description: "Incomplete" },
+{ _id: 6 }
+]);
+
+use('class');
+db.orders.aggregate([
+  {
+    $lookup: {
+      from: "inventory",
+      localField: "item",
+      foreignField: "sku",
+      as: "inventory_docs"
+    }
+  }
+]);
+
+// Utilizando o banco de dados agg_example , adicione a seguinte collection e faça os exercícios:
+use('agg_example');
+db.clients.insertMany([
+  { name: "Dave America", State: "Florida" },
+  { name: "Ned Flanders", State: "Alasca" },
+  { name: "Mark Zuck", State: "Texas" },
+  { name: "Edna Krabappel", State: "Montana" },
+  { name: "Arnold Schuz", State: "California" },
+  { name: "Lisa Simpson", State: "Florida" },
+  { name: "Barney Gumble", State: "Texas" },
+  { name: "Homer Simpson", State: "Florida" },
+]);
+
+use('agg_example');
+db.clients.find();
+
+use('agg_example');
+db.transactions.find();
+
+// 1- Selecione todos os clientes com as suas respectivas transações feitas;
+use('agg_example');
+db.clients.aggregate([
+  {
+    $lookup: {
+      from: "transactions",
+      localField: "name",
+      foreignField: "from",
+      as: "client_docs"
+    }
+  }
+]);
+
+// 2- Selecione quatro clientes com as suas respectivas transações recebidas;
+use('agg_example');
+db.clients.aggregate([
+  {
+    $lookup: {
+      from: "transactions",
+      localField: "name",
+      foreignField: "to",
+      as: "client_docs"
+    }
+  },
+  {
+    $limit: 4
+  }
+]);
+
+// 3- Selecione todos os cliente do estado da "Florida" e suas respectivas transações recebidas.
+use('agg_example');
+db.clients.aggregate([
+    {
+    $match: { State: "Florida"}
+  },
+  {
+    $lookup: {
+      from: "transactions",
+      localField: "name",
+      foreignField: "to",
+      as: "client_docs"
+    }
+  },
+]);
