@@ -1,7 +1,7 @@
 ## BLOCO 27.1 - DESCRIÇÃO DOS PROGRAMAS
 
 ### aula-on-line
-- [ ] Exercício 1: .
+- [x] Exercício 1: _imc_ -Script para cálculo de IMC.
 
 ### conteudos
 - [x] Exercício 1: _package-nodejs_ - Criando um script simples.
