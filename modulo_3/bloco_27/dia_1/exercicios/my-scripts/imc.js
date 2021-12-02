@@ -3,9 +3,6 @@ const readline = require('readline-sync');
 const peso = readline.questionFloat('Qual é o seu peso? ');
 const altura = readline.questionInt('Qual é a sua altura? ');
 
-// const peso = 80;
-// const altura = 170;
-
 function calcIMC(){
   const imc = (peso/((altura/100)^2)).toFixed(2);
   console.log(`Peso: ${peso} / Altura: ${altura}`);
