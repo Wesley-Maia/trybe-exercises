@@ -195,7 +195,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 27: Introdução ao desenvolvimento Web com NodeJS
 
 - [x] 27-1: _Node.js - Introdução_
-- [ ] 27-2: _Node.js - Fluxo Assíncrono_
+- [x] 27-2: _Node.js - Fluxo Assíncrono_
 - [ ] 27-3: _Testes com NodeJS_
 - [ ] 27-4: _Express: HTTP com Node.js_
 - [ ] 27-5: _Express: Middlewares_
