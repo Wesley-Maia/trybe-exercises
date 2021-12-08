@@ -197,7 +197,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 27-1: _Node.js - Introdução_
 - [x] 27-2: _Node.js - Fluxo Assíncrono_
 - [x] 27-3: _Testes com NodeJS_
-- [ ] 27-4: _Express: HTTP com Node.js_
+- [x] 27-4: _Express: HTTP com Node.js_
 - [ ] 27-5: _Express: Middlewares_
 - [ ] 27-6: _[Projeto - Talker Manager]()_
 
