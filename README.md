@@ -206,6 +206,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 28-1: _Arquitetura de Software - Camada de Model_
 - [x] 28-2: _Arquitetura de Software - Camada de Controller e Service_
 - [x] 28-3: _Arquitetura Web - Rest e Restful_
-- [ ] 28-4: _Arquitetura de Software - Testando as Camadas_
-- [ ] 28-5: _[Projeto - Store Manager]()_
+- [x] 28-4: _Arquitetura de Software - Testando as Camadas_
+- [x] 28-5: _[Projeto - Store Manager](https://github.com/tryber/sd-013-c-store-manager/pull/92)_
 
+##### Bloco 29: Autenticação e Upload de Arquivos
+
+- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
+- [ ] 29-2: _NodeJS - Upload de arquivos com `multer`_
+- [ ] 29-3: _NodeJS - Testando APIs com Testes de Integração_
