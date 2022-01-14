@@ -1,0 +1,25 @@
+{
+  "name": "first-package-trybe",
+  "version": "1.0.0",
+  "description": "nosso primeiro pacote node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryber/sd-013-c-live-lectures.git"
+  },
+  "author": "Thiago <thiago.mariotto@betrybe.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tryber/sd-013-c-live-lectures/issues"
+  },
+  "homepage": "https://github.com/tryber/sd-013-c-live-lectures#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "readline-sync": "^1.4.10"
+  }
+}

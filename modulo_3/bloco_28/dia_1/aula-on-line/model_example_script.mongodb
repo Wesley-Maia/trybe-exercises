@@ -1,0 +1,7 @@
+use('lecture_models');
+
+db.characters.insertMany([
+    { "name": "George", "cartton": "R. R."},
+    { "name": "Naruto", "cartton": "Shippuden"},
+    { "name": "Sonic", "cartton": "One Puch Man"}
+])

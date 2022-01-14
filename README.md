@@ -194,10 +194,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 27: Introdução ao desenvolvimento Web com NodeJS
 
-- [ ] 27-1: _Node.js - Introdução_
-- [ ] 27-2: _Node.js - Fluxo Assíncrono_
-- [ ] 27-3: _Testes com NodeJS_
-- [ ] 27-4: _Express: HTTP com Node.js_
-- [ ] 27-5: _Express: Middlewares_
-- [ ] 27-6: _[Projeto - Talker Manager]()_
+- [x] 27-1: _Node.js - Introdução_
+- [x] 27-2: _Node.js - Fluxo Assíncrono_
+- [x] 27-3: _Testes com NodeJS_
+- [x] 27-4: _Express: HTTP com Node.js_
+- [x] 27-5: _Express: Middlewares_
+- [x] 27-6: _[Projeto - Talker Manager](https://github.com/tryber/sd-013-c-project-talker-manager/pull/57)_
 
+##### Bloco 28: Node.js: Camada de Serviço e Arquitetura Rest e Restful
+
+- [x] 28-1: _Arquitetura de Software - Camada de Model_
+- [x] 28-2: _Arquitetura de Software - Camada de Controller e Service_
+- [x] 28-3: _Arquitetura Web - Rest e Restful_
+- [x] 28-4: _Arquitetura de Software - Testando as Camadas_
+- [x] 28-5: _[Projeto - Store Manager](https://github.com/tryber/sd-013-c-store-manager/pull/92)_
+
+##### Bloco 29: Autenticação e Upload de Arquivos
+
+- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
+- [ ] 29-2: _NodeJS - Upload de arquivos com `multer`_
+- [ ] 29-3: _NodeJS - Testando APIs com Testes de Integração_
