@@ -212,5 +212,5 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 29: Autenticação e Upload de Arquivos
 
 - [x] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com `multer`_
+- [x] 29-2: _NodeJS - Upload de arquivos com `multer`_
 - [ ] 29-3: _NodeJS - Testando APIs com Testes de Integração_
