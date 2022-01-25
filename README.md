@@ -213,4 +213,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 29-1: _NodeJS - JWT - (JSON Web Token)_
 - [x] 29-2: _NodeJS - Upload de arquivos com `multer`_
-- [ ] 29-3: _NodeJS - Testando APIs com Testes de Integração_
+- [x] 29-3: _NodeJS - Testando APIs com Testes de Integração_
+- [x] 29-4: _[Projeto - Cookmaster](https://github.com/tryber/sd-013-c-cookmaster/pull/72)_
+
+##### Bloco 30: Deployment
+- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 30-2: _Deploy - Gerenciadores de Processos_
+- [ ] 30-3: _[Projeto - Stranger Things]()_
