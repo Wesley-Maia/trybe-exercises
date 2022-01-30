@@ -217,6 +217,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 29-4: _[Projeto - Cookmaster](https://github.com/tryber/sd-013-c-cookmaster/pull/72)_
 
 ##### Bloco 30: Deployment
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
+- [x] 30-1: _Infraestrutura - Deploy com Heroku_
 - [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+- [x] 30-3: _[Projeto - Stranger Things - Instructions](https://github.com/tryber/sd-013-c-stranger-things)_
+- [x] 30-3: _[Projeto - Stranger Things - Backend](https://github.com/tryber/sd-013-c-stranger-things-backend/pull/67)_
+- [x] 30-3: _[Projeto - Stranger Things - Frontend](https://github.com/tryber/sd-013-c-stranger-things-frontend/pull/82)_
+
+##### Bloco 31: Arquitetura - Princípios SOLID
+- [ ] 31-1: _ _
+- [ ] 31-2: _ _
+- [ ] 31-3: _ _
+- [ ] 31-4: _[Projeto - ]()_
+
+##### Bloco 32: 
+- [ ] 32-1: _ _
+- [ ] 32-2: _ _
+- [ ] 32-3: _ _
+- [ ] 32-4: _[Projeto - ]()_
