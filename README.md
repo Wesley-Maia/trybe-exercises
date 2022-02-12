@@ -226,8 +226,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 31: Arquitetura: SOLID e ORM
 - [x] 31-1: _Arquitetura - Princípios SOLID_
 - [x] 31-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 31-3: _ORM - Associations_
-- [ ] 31-4: _[Projeto - API de Blogs](https://github.com/tryber/sd-013-c-project-blogs-api/pull/43)_
+- [x] 31-3: _ORM - Associations_
+- [x] 31-4: _[Projeto - API de Blogs](https://github.com/tryber/sd-013-c-project-blogs-api/pull/43)_
 
 ##### Bloco 32: Sockets
 - [ ] 32-1: _ _
