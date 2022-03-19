@@ -234,7 +234,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 32-2: _Sockets - TCP/UDP & NET_
 - [ ] 32-3: _Sockets - Socket.io_
 - [ ] 32-4: _Sockets - Praticando Socket.io_
-- [ ] 32-5: _[Projeto - Webchat]()_
 
-##### Bloco 33: Projeto - App de Delivery
-- [ ] 33-1: _[Projeto - App de Delivery]()_
+##### Bloco 33: Introdução à Python
+- [x] 33-1: _Aprendendo Python_
+- [ ] 33-2: _ _
+- [ ] 33-3: _ _
