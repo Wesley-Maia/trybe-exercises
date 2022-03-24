@@ -237,5 +237,5 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 33: Introdução à Python
 - [x] 33-1: _Aprendendo Python_
-- [ ] 33-2: _ _
+- [x] 33-2: _Entrada e Saída de Dados_
 - [ ] 33-3: _ _
