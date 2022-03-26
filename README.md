@@ -230,10 +230,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 31-4: _[Projeto - API de Blogs](https://github.com/tryber/sd-013-c-project-blogs-api/pull/43)_
 
 ##### Bloco 32: Sockets
-- [ ] 32-1: _ _
-- [ ] 32-2: _ _
-- [ ] 32-3: _ _
-- [ ] 32-4: _[Projeto - Webchat]()_
+- [x] 32-1: _Arquitetura de Software - Camada de View_
+- [x] 32-2: _Sockets - TCP/UDP & NET_
+- [ ] 32-3: _Sockets - Socket.io_
+- [ ] 32-4: _Sockets - Praticando Socket.io_
 
-##### Bloco 33: Projeto - App de Delivery
-- [ ] 33-1: _[Projeto - App de Delivery]()_
+##### Bloco 33: Introdução à Python
+- [x] 33-1: _Aprendendo Python_
+- [x] 33-2: _Entrada e Saída de Dados_
+- [x] 33-3: _Testes_
+- [ ] 33-4: _[Projeto - Job Insights](https://github.com/tryber/sd-013-c-project-job-insights/pull/67)_
+
+##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
+- [ ] 34-1: _ _
+- [ ] 34-2: _ _
+- [ ] 34-3: _ _
