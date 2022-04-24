@@ -245,22 +245,29 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 34-1: _Introdução à programação orientada a objetos_
 - [x] 34-2: _Herança, Composição e Interfaces_
 - [ ] 34-3: _Padrões de projeto_
-- [x] 34-4: _[Projeto -](https://github.com/tryber/sd-013-c-inventory-report/pull/93)_
+- [x] 34-4: _[Projeto - Inventory Report](https://github.com/tryber/sd-013-c-inventory-report/pull/93)_
 
 ##### Bloco 35: Redes e Raspagem de Dados
 - [ ] 35-1: _Arquitetura de redes_
 - [ ] 35-2: _Redes de computadores, ferramentas e segurança_
 - [x] 35-3: _Raspagem de Dados_
-- [ ] 35-4: _[Projeto -]()_
+- [x] 35-4: _[Projeto - Tech News](https://github.com/tryber/sd-013-c-tech-news/pull/81)_
 
 ##### Bloco 36: Algoritmos
 
-- [ ] 36-1: _ _
+- [x] 36-1: _Complexidade de Algoritmos_
 - [ ] 36-2: _ _
 - [ ] 36-3: _ _
 - [ ] 36-4: _[Projeto -]()_
 
-##### Bloco 37: Algoritmos
+##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
+
+- [ ] 37-1: _ _
+- [ ] 37-2: _ _
+- [ ] 37-3: _ _
+- [ ] 37-4: _[Projeto -]()_
+
+##### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
 
 - [ ] 37-1: _ _
 - [ ] 37-2: _ _
