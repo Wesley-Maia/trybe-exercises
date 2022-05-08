@@ -1,0 +1,1 @@
+mongoimport --db library books.json

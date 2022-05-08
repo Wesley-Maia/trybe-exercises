@@ -239,9 +239,39 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 33-1: _Aprendendo Python_
 - [x] 33-2: _Entrada e Saída de Dados_
 - [x] 33-3: _Testes_
-- [ ] 33-4: _[Projeto - Job Insights](https://github.com/tryber/sd-013-c-project-job-insights/pull/67)_
+- [x] 33-4: _[Projeto - Job Insights](https://github.com/tryber/sd-013-c-project-job-insights/pull/67)_
 
 ##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
-- [ ] 34-1: _ _
-- [ ] 34-2: _ _
-- [ ] 34-3: _ _
+- [x] 34-1: _Introdução à programação orientada a objetos_
+- [x] 34-2: _Herança, Composição e Interfaces_
+- [ ] 34-3: _Padrões de projeto_
+- [x] 34-4: _[Projeto - Inventory Report](https://github.com/tryber/sd-013-c-inventory-report/pull/93)_
+
+##### Bloco 35: Redes e Raspagem de Dados
+- [ ] 35-1: _Arquitetura de redes_
+- [ ] 35-2: _Redes de computadores, ferramentas e segurança_
+- [x] 35-3: _Raspagem de Dados_
+- [x] 35-4: _[Projeto - Tech News](https://github.com/tryber/sd-013-c-tech-news/pull/81)_
+
+##### Bloco 36: Algoritmos
+
+- [x] 36-1: _Complexidade de Algoritmos_
+- [x] 36-2: _Recursividade e Estratégias para solução de problemas_
+- [ ] 36-3: _ _
+- [x] 36-4: _[Projeto - Project Algorithms](https://github.com/tryber/sd-013-c-project-algorithms/pull/93)_
+
+##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
+
+- [ ] 37-1: _Arquitetura de Computadores_
+- [x] 37-2: _Arrays_
+- [ ] 37-3: _Hashmap e Dict_
+- [ ] 37-4: _Set_
+- [ ] 37-5: _[Projeto -]()_
+
+##### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
+
+- [ ] 37-1: _ _
+- [ ] 37-2: _ _
+- [ ] 37-3: _ _
+- [ ] 37-4: _[Projeto -]()_
+
